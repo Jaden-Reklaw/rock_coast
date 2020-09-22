@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Coast</title>
     <link rel="icon" type="image/png" href="favicon.png">
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,7 +17,7 @@
     <nav>
       <ul>
         <li id="nav-1" class="slide-out-1"><a href="#home">Home</a></li>
-        <li id="nav-2" class="slide-out-2"><a href="#about">About</a></li>
+        <li id="nav-2" class="slide-out-2"><a href="#products">Products</a></li>
         <li id="nav-3" class="slide-out-3"><a href="#skills">Skills</a></li>
         <li id="nav-4" class="slide-out-4"><a href="#projects">Projects</a></li>
         <li id="nav-5" class="slide-out-5"><a href="#contact">Contact</a></li>
@@ -34,12 +37,13 @@
         <a href="" target="_blank">
             <img src="Rock_Coast_Logo.png" width="120px">
         </a>
-        <h1>Welcome to Rock Coast</h1>
-        <p>The world</p>
+        <h1 data-aos="fade-up">Welcome to Rock Coast</h1>
+        <p data-aos="fade-right">Your one stop shop for everything you need for the great outdoors</p>
+        <button class="button btn1">Explore More!</button>
     </section>
-
-    <section id="about">
-        <h1>Learn More About Me</h1>
+    
+    <section id="products">
+        <h1>Our Products</h1>
         <p>Test</p>
     </section>
     <section id="skills"><h1>These Are My Strengths</h1></section>
@@ -47,6 +51,8 @@
     <section id="contact"><h1>Available Anytime</h1></section>
     
     <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
