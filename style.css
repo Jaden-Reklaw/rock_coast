@@ -42,7 +42,6 @@ body {
   
 .btn1:hover {
     background-color: #c7831b;
-    color: white;
 }
 
 /* --- Navigation Menu ------------------------------ */
@@ -56,7 +55,6 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
-  /* Somehow this removes the nav menu from the sceen */
   transform: translateX(-100vw);
 }
 
@@ -274,6 +272,8 @@ section#home a {
 }
 
 section#products {
+  padding-bottom: 12px;
+  height: auto;
   flex-direction: column;
   text-align: center;
   justify-content: center;
@@ -293,14 +293,17 @@ section#contact {
   background-color: var(--navColor5);
 }
 
-/* Cards */
+/* --- Cards ------------------------------------ */
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
+  overflow-x: auto;
 }
 
 .card {
+  border: black 1px solid;
+  margin: 0px 12px;
   display: grid;
   grid-template-rows: max-content 200px 1fr;
 }
@@ -321,5 +324,10 @@ section#contact {
   .menu-bars {
     top: 0.5rem;
     right: 1rem;
+  }
+  .card {
+    width: 95vw;
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
   }
 }
