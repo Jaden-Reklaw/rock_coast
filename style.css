@@ -47,10 +47,12 @@ body {
 
 /* --- Video Styling ------------------------------ */
 video {
-  width: 80%;
+  width: 95%;
+  box-shadow: 5px 10px 8px black;
 }
 
 .container {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -289,19 +291,24 @@ section#products {
   height: auto;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: var(--navColor2);
 }
 
 section#trip {
+  height: auto;
+  padding-bottom: 12px;
   text-align: center;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
   background-color: var(--navColor3);
 }
 
-section#projects {
+section#deals {
+  display: inline-block;
+  text-align: center;
   background-color: var(--navColor4);
 }
 
