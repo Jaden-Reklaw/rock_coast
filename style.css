@@ -45,6 +45,17 @@ body {
     background-color: #c7831b;
 }
 
+/* --- Video Styling ------------------------------ */
+video {
+  width: 80%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* --- Navigation Menu ------------------------------ */
 
 /* Overlay */
@@ -283,7 +294,10 @@ section#products {
   background-color: var(--navColor2);
 }
 
-section#skills {
+section#trip {
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   background-color: var(--navColor3);
 }
 
@@ -336,5 +350,9 @@ footer {
   }
   .card {
     width: 95vw;
+  }
+
+  .container{
+    flex-wrap: wrap;
   }
 }
