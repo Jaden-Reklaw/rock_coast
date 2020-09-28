@@ -307,6 +307,7 @@ section#trip {
 }
 
 section#deals {
+  height: auto;
   display: inline-block;
   text-align: center;
   background-color: var(--navColor4);
