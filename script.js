@@ -39,7 +39,7 @@ const products = [
         price: '$299.99',
     },
     {
-        product_name: 'Survival Training Handbook',
+        product_name: 'Survival Handbook',
         image: 'https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80',
         description: 'Bear Grylls book on survival',
         dimensions: '285 pages',
